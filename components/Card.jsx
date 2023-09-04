@@ -18,7 +18,7 @@ function Card({ usersclan }) {
                                 The character had his anime debut {user.debut?.anime} .
                                 
                                 </p>
-                                <Link href="/userdetails" class="btn btn-primary">see character detail</Link>
+                                <Link href={`/userdetails/${user.id}`} class="btn btn-primary">see character detail</Link>
                             </div>
                         </div>
                     </div>
